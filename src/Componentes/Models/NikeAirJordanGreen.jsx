@@ -7,7 +7,7 @@ const NikeAirJordanGreen = () => {
 
   return (
     <>
-      <OrbitControls maxPolarAngle={Math.PI / 2} />
+      <OrbitControls maxPolarAngle={Math.PI / 2} minDistance={0.2} maxDistance={1}/>
 
       <Stage>
         <Float floatingRange={[0.01, 0.05]}>
